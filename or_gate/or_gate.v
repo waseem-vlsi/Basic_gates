@@ -1,0 +1,18 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: IIT jammu 
+// Engineer: waseem
+// Create Date: 07.08.2025 16:40:05
+// Module Name: or_gate 
+// Target Devices: FPGA
+//////////////////////////////////////////////////////////////////////////////////
+
+
+module or_gate(a,b,y
+
+    );
+    input a,b;
+    output y;
+   wire y;
+    assign y = a|b;
+endmodule
