@@ -7,9 +7,7 @@
 // Target Devices: FPGA
 //////////////////////////////////////////////////////////////////////////////////
 
-module or_gate(a,b,y
-
-    );
+module or_gate(a,b,y);
     input a,b;
     output y;
    wire y;
